@@ -117,7 +117,6 @@ namespace MameXmlGenerator
 
             while (xmlReader.Read())
             {
-                mameMachine mameMachine = new mameMachine();
                 if (xmlReader.NodeType == XmlNodeType.Element)
                 {
                     if (xmlReader.EOF)
